@@ -27,6 +27,11 @@
 }
 .text--bold {
     font-weight: 700;
+    font-size: 18px;
+}
+
+.text-offer {
+    font-size: 18px;
 }
 
 .btn--lg {
@@ -37,6 +42,10 @@
 }
 
 .btn__span--lg {
-    
     font-weight: 400;
+}
+
+.up {
+    position: relative;
+    top: 3em;
 }
