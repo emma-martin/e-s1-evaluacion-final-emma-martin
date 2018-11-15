@@ -11,11 +11,15 @@
 }
 
 body{
-	font-family: $font-text;
 	color: $color-secondary;
 	background-color: $color-primary;
 }
 
 .title {
 	font-family: $font-title;
+}
+
+.text {
+	font-family: $font-text;
+
 }
