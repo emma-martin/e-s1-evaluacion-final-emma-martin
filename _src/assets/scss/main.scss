@@ -1,6 +1,13 @@
 @import 'core/settings';
+@import 'layout/header';
+@import 'layout/content';
+@import 'layout/offer';
+@import 'layout/footer';
 
 body {
-    background-color: red;
-	height: 100vh;
+	margin: 0;
+}
+
+h1{
+	margin: 0;
 }
