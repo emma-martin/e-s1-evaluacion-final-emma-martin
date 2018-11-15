@@ -4,10 +4,18 @@
 @import 'layout/offer';
 @import 'layout/footer';
 
-body {
+*{  
+	box-sizing: border-box;
 	margin: 0;
+	padding: 0;
 }
 
-h1{
-	margin: 0;
+body{
+	font-family: $font-text;
+	color: $color-secondary;
+	background-color: $color-primary;
+}
+
+.title {
+	font-family: $font-title;
 }

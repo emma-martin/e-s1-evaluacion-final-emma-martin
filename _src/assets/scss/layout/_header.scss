@@ -1,6 +1,5 @@
 .hero {
     background-image: url(../images/cover.jpg);
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,9 +7,28 @@
     width: 100%;
 }
 
+.box {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__hero {
+    display: block;
+    color: $color-primary;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 42px;
+
+}
+
+
 .icon {
     height: 45px;
-    width: 45px;
+    width: auto;
     &.icon__menu {
         // background: url(../images/ico-menu.svg);
         
