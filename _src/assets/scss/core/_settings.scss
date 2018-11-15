@@ -6,15 +6,24 @@ $color-white: #f3f4f5;
   $black: #000000;
   $orange: #f26002;
   $light-blue: #8ccbea;
+  $ice-blue: #eff9ff;
+  $burger-color: #0271bc;
 
   $color-primary:$white;
   $color-secondary:$black;
   $color-tertiary: $dark-grey-blue;
   $color-complement: $greyish-brown;
   $color-icon: $orange;
-  $color-bcg:  $light-blue;
+  $color-bcg:  $ice-blue;
 
 $font-text: Roboto, sans-serif;
 $font-title: Roboto Slab, serif;
 
+.title {
+	font-family: $font-title;
+}
 
+.text {
+	font-family: $font-text;
+	font-weight: 400;
+}

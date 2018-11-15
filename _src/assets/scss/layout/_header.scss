@@ -1,3 +1,17 @@
+
+
+.burger-box {
+    width: 44px;
+    height: 44px;
+    background-color: $burger-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero {
     background-image: url(../images/cover.jpg);
     background-position: bottom center;
@@ -6,14 +20,16 @@
     min-height: 100vh;
     height: 568px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .box-title {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -33,20 +49,19 @@
     text-align: center;
     font-size: 16px;
     width: 290px;
+    padding-bottom: 45px;
+    font-weight: 400;
 }
 
-
-
+.icon__menu {
+    width: 16px;
+    height: 14px;
+}
 
 .icon {
-    height: 45px;
-    width: auto;
-    &.icon__menu {
-        // background: url(../images/ico-menu.svg);
-        
-        position: fixed;
-        top: 0;
-        left: 0;
+    @include icon;
 
-    }
+}
+.icon__down {
+    width: 20px;
 }

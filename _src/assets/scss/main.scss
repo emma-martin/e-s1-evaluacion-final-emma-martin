@@ -1,4 +1,5 @@
 @import 'core/settings';
+@import 'core/mixins';
 @import 'layout/header';
 @import 'layout/content';
 @import 'layout/offer';
@@ -15,11 +16,5 @@ body{
 	background-color: $color-primary;
 }
 
-.title {
-	font-family: $font-title;
-}
 
-.text {
-	font-family: $font-text;
 
-}
