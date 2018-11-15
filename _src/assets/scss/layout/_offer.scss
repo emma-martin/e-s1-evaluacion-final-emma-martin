@@ -28,3 +28,15 @@
 .text--bold {
     font-weight: 700;
 }
+
+.btn--lg {
+    width: 184px;
+    background-color: $color-icon;
+    color: $color-primary;
+    
+}
+
+.btn__span--lg {
+    
+    font-weight: 400;
+}
