@@ -1,13 +1,14 @@
 .hero {
     background-image: url(../images/cover.jpg);
-    background-position: center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    height: 568px;
     width: 100%;
 }
 
-.box {
+.box-title {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -17,13 +18,24 @@
 }
 
 .title__hero {
-    display: block;
     color: $color-primary;
+    font-family: $font-title;
     text-transform: uppercase;
     text-align: center;
     font-size: 42px;
-
+    width: 290px;
+    padding-bottom: 10px;
 }
+
+.text-hero {
+    font-family: $font-text;
+    color: $color-primary;
+    text-align: center;
+    font-size: 16px;
+    width: 290px;
+}
+
+
 
 
 .icon {
