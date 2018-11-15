@@ -1,5 +1,6 @@
 .hero {
     background-image: url(../images/cover.jpg);
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,8 +11,9 @@
 .icon {
     height: 45px;
     width: 45px;
-    &__menu {
-        background: url(_src/assets/images/ico-menu.svg);
+    &.icon__menu {
+        // background: url(../images/ico-menu.svg);
+        
         position: fixed;
         top: 0;
         left: 0;
