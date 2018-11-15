@@ -15,6 +15,7 @@
     color: $color-bcg;
     font-size: 14px;
     margin-bottom: 1px;
+    font-weight: 400;
 }
 
 .title__main {
@@ -27,6 +28,25 @@
 .text__content {
     color: $color-complement;
     margin-bottom: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.btn {
+    font-family: $font-text;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    height: 45px;
+    text-decoration: none;
+    border: 2px solid $color-icon;
+    border-radius: 22.5px;
+}
+
+.btn--sm {
+    color: $color-icon;
+    width: 76px;
+
 }
 
 
