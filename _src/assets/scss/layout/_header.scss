@@ -76,7 +76,11 @@
 }
 
 .down {
+    left: 0;
+    right: 0;
+    margin: auto;
     bottom: 53px;
+    animation: scroll 3s ease-in-out infinite;
     @media all and (min-width:768px) {
         bottom: 45px;
     }
