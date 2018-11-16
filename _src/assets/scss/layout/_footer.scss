@@ -9,6 +9,30 @@
     text-align: center;
 }
 
+.up {
+    position: relative;
+    top: -35px;
+    animation: scroll 3s ease-in-out infinite;
+    @media all and (min-width:768px) {
+        top: -25px;
+    }
+    @media all and (min-width:1280px) {
+        top: -25px;
+    }
+}
+
+@keyframes scroll {
+    0% {
+        bottom: 0;
+    }
+    50% {
+        top: 2px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
 .small{
     display: block;
     font-family: $font-text;

@@ -52,6 +52,9 @@
 
 .btn {
     @include btn;
+    &:hover{
+        transform: translateY(3px);
+    }
     .btn__span {
         line-height: 2;
         width: 100%;
@@ -60,6 +63,7 @@
             line-height: 2.25;
         }
     }
+    
 }
 
 .btn--sm {
@@ -71,6 +75,7 @@
     @media all and (min-width:1280px) {
         width: 160px;
     }
+    
 }
 
 
