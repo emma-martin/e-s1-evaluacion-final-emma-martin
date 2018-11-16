@@ -93,8 +93,11 @@
 
 .up {
     position: relative;
-    top: 25px;
+    top: 45px;
     @media all and (min-width:768px) {
-        top: 20px;
+        top: 25px;
+    }
+    @media all and (min-width:1280px) {
+        top: 25px;
     }
 }
