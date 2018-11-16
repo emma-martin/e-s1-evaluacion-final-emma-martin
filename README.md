@@ -32,5 +32,7 @@ Lanza un webserver con BrowserSync y varios watchers estarán pendientes de los 
 ## Mejoras bienvenidas
 Si encuentras una forma alternativa y más sencilla para resolver el diseño, hazme un PR :-)
 
+Y ya, para terminar:
 
+![](https://media1.tenor.com/images/471983c09a813d1dece595508529ccec/tenor.gif?itemid=12813575)
 
