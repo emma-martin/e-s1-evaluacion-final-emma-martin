@@ -26,7 +26,7 @@ Para dar dinamismo a la página, he introducido las siguientes transiciones:
 - Los botones de scroll tienen una pequeña animación.
 
 ## Automatización
-Este repo utizila un kit de Gulp que puedes ver [aquí](https://github.com/Adalab/Adalab-web-starter-kit). 
+Este repo utiliza un kit de Gulp que puedes ver [aquí](https://github.com/Adalab/Adalab-web-starter-kit). 
 Lanza un webserver con BrowserSync y varios watchers estarán pendientes de los archivos SCSS/JS/HTML, en la carpeta **public/**, para recargar el navegador cuando se necesite.
 
 ## Mejoras bienvenidas
