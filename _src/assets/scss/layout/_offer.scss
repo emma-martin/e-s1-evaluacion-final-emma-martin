@@ -63,8 +63,8 @@
     }
 }
 
-
-.text--bold {
+.bold {
+    font-family: $font-title;
     font-weight: 700;
     font-size: 18px;
     @media all and (min-width:768px) {
@@ -86,10 +86,15 @@
     color: $color-primary;
     @media all and (min-width:768px) {
         font-size: 20px;
+        width: 210px;
+        margin: auto;
     }
 }
 
 .up {
     position: relative;
-    top: 3em;
+    top: 25px;
+    @media all and (min-width:768px) {
+        top: 20px;
+    }
 }
