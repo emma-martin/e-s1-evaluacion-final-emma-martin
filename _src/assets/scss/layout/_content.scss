@@ -44,6 +44,8 @@
     @include btn;
     .btn__span {
         line-height: 2;
+        width: 100%;
+        font-weight: 500;
         @media all and (min-width:768px) {
             line-height: 2.25;
         }

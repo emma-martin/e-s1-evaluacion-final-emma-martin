@@ -5,45 +5,88 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media all and (min-width:768px) {
+        height: 397px;
+    }
 }
 
-.title__offer {
+.title-offer {
     color: $color-secondary;
     font-size: 24px;
     text-transform: capitalize;
     padding-top: 30px;
     margin-bottom: 45px;
     text-align: center;
+    @media all and (min-width:768px) {
+        font-size: 26px;
+    }
 }
 
 .wrapper{
     text-align: center;
     margin: 0 55px;
+    @media all and (min-width:768px) {
+        display: grid;
+        grid-template-columns: repeat(3, 210px);
+        grid-template-rows: 112px;
+        grid-column-gap: 28px;
+        grid-template-areas: "area-1 area-2 area-3";
+    }
+}
+
+.area-1{
+    @media all and (min-width:768px) {
+        grid-area: area-1;
+    }
+}
+
+.area-2{
+    @media all and (min-width:768px) {
+        grid-area: area-2;
+    }
+}
+
+.area-3{
+    @media all and (min-width:768px) {
+        grid-area: area-3;
+    }
 }
 
 .reason {
     width: 180px;
     line-height: 1.67;
     padding-bottom: 45px;
+    @media all and (min-width:768px) {
+        width: 213px;
+        padding-bottom: 0;
+        line-height: 1.5;
+    }
 }
+
+
 .text--bold {
     font-weight: 700;
     font-size: 18px;
+    @media all and (min-width:768px) {
+        font-size: 24px;
+        padding-bottom: 14px;
+    }
 }
 
 .text-offer {
     font-size: 18px;
+    @media all and (min-width:768px) {
+        font-size: 20px;
+    }
 }
 
 .btn--lg {
     width: 184px;
     background-color: $color-icon;
     color: $color-primary;
-    
-}
-
-.btn__span--lg {
-    font-weight: 400;
+    @media all and (min-width:768px) {
+        font-size: 20px;
+    }
 }
 
 .up {
