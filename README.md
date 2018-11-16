@@ -34,5 +34,5 @@ Si encuentras una forma alternativa y más sencilla para resolver el diseño, ha
 
 Y ya, para terminar:
 
-![](https://media1.tenor.com/images/471983c09a813d1dece595508529ccec/tenor.gif?itemid=12813575)
+![Gracias de gatete](https://media1.tenor.com/images/471983c09a813d1dece595508529ccec/tenor.gif?itemid=12813575)
 
