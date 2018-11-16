@@ -30,7 +30,7 @@ Este repo utiliza un kit de Gulp que puedes ver [aquí](https://github.com/Adala
 Lanza un webserver con BrowserSync y varios watchers estarán pendientes de los archivos SCSS/JS/HTML, en la carpeta **public/**, para recargar el navegador cuando se necesite.
 
 ## Mejoras bienvenidas
-Si encuentras una forma alternativa y más sencilla para resolver el diseño, hazme un PR :-)
+Si encuentras una forma alternativa y más sencilla para resolver el diseño, mándame ese snippet majo :-)
 
 Y ya, para terminar:
 
