@@ -3,45 +3,61 @@
     flex-direction: column;
     justify-content: flex-start;
     text-align: left;
-    height: 376px;
     width: 100%;
 }
 
-.box-wide {
+.box-with {
     margin: 30px 15px 45px;
+    @media all and (min-width:768px) {
+        margin: 30px 39px 60px;
+    }
 }
 
-.text__cat {
+.category-title {
     color: $color-light;
     font-size: 14px;
     margin-bottom: 1px;
     font-weight: 400;
 }
 
-.title__content {
+.title-content {
     color: $color-secondary;
     font-size: 24px;
     text-transform: capitalize;
     margin-bottom: 15px;
+    @media all and (min-width:768px) {
+        font-size: 24px;
+    }
 }
 
-.text__content {
+.text-content {
     color: $color-complement;
     margin-bottom: 30px;
     text-align: justify;
     line-height: 30px;
+    @media all and (min-width:768px) {
+        font-size: 20px;
+    }
 }
 
 .btn {
     @include btn;
     .btn__span {
         line-height: 2;
+        @media all and (min-width:768px) {
+            line-height: 2.25;
+        }
     }
 }
 
 .btn--sm {
     color: $color-icon;
     width: 76px;
+    @media all and (min-width:768px) {
+        width: 91px;
+    }
+
+
 
 }
 
