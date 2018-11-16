@@ -1,5 +1,7 @@
-![Adalab](images/logo-adalab-80px.png)
-# Adalab web starter kit
+
+<img alt="Adalab" src="_src/assets/images/Logo-00-adalab-med@2x.png" width="200" />
+
+# Evaluación final Sprint 1
 Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
 Incluye SCSS, un sistema de plantillas HTMl y un web server.
 
