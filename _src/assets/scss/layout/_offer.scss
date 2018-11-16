@@ -8,6 +8,9 @@
     @media all and (min-width:768px) {
         height: 397px;
     }
+    @media all and (min-width:1280px) {
+        height: 427px;
+    }
 }
 
 .title-offer {
@@ -20,6 +23,10 @@
     @media all and (min-width:768px) {
         font-size: 26px;
     }
+    @media all and (min-width:1280px) {
+        font-size: 32px;
+        padding-top: 60px;
+    }
 }
 
 .wrapper{
@@ -27,10 +34,16 @@
     margin: 0 55px;
     @media all and (min-width:768px) {
         display: grid;
-        grid-template-columns: repeat(3, 210px);
+        grid-template-columns: repeat(3, 213px);
         grid-template-rows: 112px;
         grid-column-gap: 28px;
         grid-template-areas: "area-1 area-2 area-3";
+    }
+    @media all and (min-width:1280px) {
+        display: grid;
+        grid-template-columns: repeat(3, 353px);
+        grid-template-rows: 112px;
+        grid-column-gap: 26px;
     }
 }
 
@@ -53,6 +66,7 @@
 }
 
 .reason {
+    margin: auto;
     width: 180px;
     line-height: 1.67;
     padding-bottom: 45px;
@@ -61,9 +75,12 @@
         padding-bottom: 0;
         line-height: 1.5;
     }
+    @media all and (min-width:1280px) {
+        width: 353px;
+    }
 }
 
-.bold {
+.t-bold {
     font-family: $font-title;
     font-weight: 700;
     font-size: 18px;
@@ -88,6 +105,9 @@
         font-size: 20px;
         width: 210px;
         margin: auto;
+    }
+    @media all and (min-width:1280px) {
+        width: 255px;
     }
 }
 
