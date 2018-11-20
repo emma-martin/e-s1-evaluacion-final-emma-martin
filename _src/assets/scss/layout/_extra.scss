@@ -1,0 +1,14 @@
+.extra {
+    background-color: $color-icon;
+    color: $color-primary;
+    padding-left: 20px;
+    padding-right: 20px;
+    @media screen and (min-width: 768px) {
+        background-color: $color-tertiary;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
